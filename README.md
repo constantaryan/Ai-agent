@@ -19,9 +19,6 @@ An intelligent job hunting assistant that helps you find and analyze job opportu
 
 1. Clone the repository
 2. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
 3. Set up your API keys:
    - Create a `.env` file in the root directory
    - Add your API keys:
