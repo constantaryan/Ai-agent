@@ -48,26 +48,6 @@ class FirecrawlResponse(BaseModel):
     status: str
     expiresAt: str
 
-# class GroqChatModel:
-#     def __init__(self, model_id: str, api_key: str):
-#         self.client = Groq(api_key=api_key)
-#         self.model_id = model_id
-#         self.id = model_id
-
-#     def chat(self, messages, **kwargs):
-#         response = self.client.chat.completions.create(
-#             model=self.model_id,
-#             messages=messages,
-#             temperature=kwargs.get("temperature", 0.7),
-#             max_tokens=kwargs.get("max_tokens", 1024)
-#         )
-#         return response.choices[0].message.content
-#     def get_instructions_for_model(description: str) -> str:
-#         return f"You are a helpful assistant.\n\n{description}"
-#     def get_system_message_for_model(description: str) -> dict:
-#         return {"role": "system", "content": f"You are a helpful assistant.\n\n{description}"}
-
-
 # Here comes the MAIN Part of the CODE
 class JobHuntingAgent:
     """Agent responsible for finding jobs and providing recommendations"""
