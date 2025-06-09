@@ -11,9 +11,10 @@ An intelligent job hunting assistant that helps you find and analyze job opportu
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.9+
 - Firecrawl API key (for web scraping)
-- OpenAI API key (for AI analysis)
+- OpenAI API key OR MISTRAL API KEY (for AI analysis)
+
 
 ## Installation
 
