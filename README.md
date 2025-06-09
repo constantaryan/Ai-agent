@@ -25,7 +25,7 @@ An intelligent job hunting assistant that helps you find and analyze job opportu
      ```
      FIRECRAWL_API_KEY=your_firecrawl_api_key
      OPENAI_API_KEY=your_openai_api_key
-     OPENAI_MODEL_ID= o3-mini  or gpt-4o-mini
+     OR MISTRAL_API_KEY
      ```
 
 ## Usage
